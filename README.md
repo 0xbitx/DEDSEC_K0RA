@@ -28,7 +28,6 @@ The primary function of the botnet payload is to send flood requests to a target
      - SLOWLORIS Attack
      - SLOWLORIS HTTPS Attack
 
-
 #### Intended Use:
 
 * Penetration Testing: Simulate advanced attacks to identify vulnerabilities in systems and networks.
@@ -37,6 +36,55 @@ The primary function of the botnet payload is to send flood requests to a target
 
 * Research and Education: Study botnet behavior and develop countermeasures.
 
+### SETUP
+Setup (Google Calendar C2)
+
+Follow the steps below to configure your Google Cloud project and enable Google Calendar API for C2 communication.
+
+1. Create a Google Cloud Project and Service Account
+
+    Go to: https://console.cloud.google.com
+
+    From the sidebar, go to IAM & Admin → Service Accounts
+
+    Click + Create Project
+     * Project name: (e.g.,) rat-calendar-c2
+     * Click Create
+
+    Click + Create Service Account
+     * Service account name: e.g. test-c2
+     * Description: (optional)
+     * Click Create and Continue
+
+    Grant this service account access:
+      * Role: Owner
+      * Click Continue → Done
+
+    Click your newly created service account
+      * Go to the Keys tab
+      * Click Add Key → Create New Key
+      * Select JSON, then click Create
+      * Save the file as: creds.json in your directory
+
+3. Share Google Calendar with Service Account
+
+    Visit: https://calendar.google.com
+
+    On the left, click the 3-dot menu beside your calendar → Settings and sharing
+
+    Scroll to Share with specific people
+     * Click + Add people and groups
+     * Paste your Service Account email
+     * Example: test-c2@your-project-id.iam.gserviceaccount.com
+     * Set permission to: Make changes and manage sharing
+     * Click Send
+
+5. Enable Google Calendar API
+
+     * Go to: https://console.cloud.google.com/apis/library
+     * Search for: Google Calendar API
+     * Click it → Click Enable
+     * 
 ### INSTALLATION
      git clone https://github.com/0xbitx/DEDSEC_K0RA.git
      cd DEDSEC_K0RA
