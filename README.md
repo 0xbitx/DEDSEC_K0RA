@@ -44,7 +44,7 @@ This tool is intended for legal and authorized purposes only. Unauthorized use o
 ### INSTALLATION
      git clone https://github.com/0xbitx/DEDSEC_K0RA.git
      cd DEDSEC_K0RA
-     sudo pip3 install psutil tabulate --break
+     sudo pip3 install psutil tabulate requests --break
      chmod +x dedsec_k0ra
      sudo ./dedsec_k0ra
 
