@@ -1,10 +1,10 @@
 
 <p align="center">
-<img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExazVpdGFmbW43cDJ0cjF3eG85ZzZtYXBwZmY3ZHVpOWJ4Z2wxbmo3OSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/zGTxRhDHBzlLApWjro/giphy.gif", width="300", height="300">
+<img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExcTY5aXMxZW0yN2JsYjl1c2s4ZG9lMDY0NnRob3ViMGt6MDd3NG96NiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3o7bu0FIFT72QiCL3q/giphy.gif", width="300", height="300">
 </p>
 
 <h1 align="center"> K0RA </h1>
-<h4 align="center"> DEDSEC K0RA BUILDER</h4>
+<h4 align="center">Linux-based botnet builder</h4>
 
 ### DESCRIPTION
 
