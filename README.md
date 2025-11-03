@@ -84,7 +84,8 @@ Follow the steps below to configure your Google Cloud project and enable Google 
      * Go to: https://console.cloud.google.com/apis/library
      * Search for: Google Calendar API
      * Click it → Click Enable
-     * 
+  
+  
 ### INSTALLATION
      git clone https://github.com/0xbitx/DEDSEC_K0RA.git
      cd DEDSEC_K0RA
